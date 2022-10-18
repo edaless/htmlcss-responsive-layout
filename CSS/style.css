@@ -57,6 +57,22 @@ article{
     align-items: flex-end;
 }
 
+
+
+h2{
+    
+    font-size: 60px;
+    margin: 20px 0;
+    color:  #9792e4;
+
+}
+
+.viola{
+    
+    background-color: #9792e4;
+}
+
+
 /* HEADER////////////////////////////////////////////////////////////////////////////// */
 
 header{
@@ -197,10 +213,6 @@ header a {
 
 /* section 2 
 ///////////////////////////////////////////////////////////////////*/
-#s2{
-    
-    background-color: #9792e4;
-}
 
 
 
@@ -329,7 +341,7 @@ header a {
     width: 150px;
     object-fit: cover;
 
-    border-radius: 175px;
+    border-radius: 50%;
 
     
 
@@ -445,24 +457,59 @@ header a {
 
 
 
-#s5 h2{
+#s5 .container{
+    display: flex;
+}
+
+#about-us{
+    width: calc(100% - 200px);
+    margin-right: 50px;
+
+    background-color: #0084fd;
+}
+/* tutto meno il companies-helper */
+
+#s5 #about-us p{
     
-    font-size: 60px;
+    
+    line-height: 27px;
+    
+    
+
+}
+
+
+#companies-helper{
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: #0084fd;
+}
+
+/* questa  */
+#img-helper{
+    height:  200px;
+    width: 200px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+#companies-helper p{
+    
+}
+
+
+
+
+ #s5 h3 {
+    text-align: left;
+    font-size: 23px;
+    font-weight:600;
     margin: 20px 0;
     color:  #9792e4;
-
-}
-
-#colonna{
-    width: 70%;
-}
-
-
-#s5 p{
-    
-    
-    line-height: 30px;
-    
-    
 
 }
