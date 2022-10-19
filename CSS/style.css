@@ -72,7 +72,9 @@ h2{
     background-color: #9792e4;
 }
 
-
+.color-white{
+    color:white;
+}
 /* HEADER////////////////////////////////////////////////////////////////////////////// */
 
 header{
@@ -213,6 +215,10 @@ header a {
 
 /* section 2 
 ///////////////////////////////////////////////////////////////////*/
+#s2{
+    
+    background-color: #9792e4;
+}
 
 
 
@@ -465,7 +471,6 @@ header a {
     width: calc(100% - 200px);
     margin-right: 50px;
 
-    background-color: #0084fd;
 }
 /* tutto meno il companies-helper */
 
@@ -486,7 +491,6 @@ header a {
     justify-content: center;
     flex-wrap: wrap;
 
-    background-color: #0084fd;
 }
 
 /* questa  */
